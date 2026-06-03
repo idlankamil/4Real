@@ -2,21 +2,21 @@
 An AI-powered plagiarism detection web app built with Streamlit and a hybrid TF-IDF and BERT pipeline.
 Paste two documents and get an instant similarity score that catches both exact copying and paraphrasing.
 
-✨ Technologies
+# ✨ Technologies
 * `Python`
 * `Streamlit`
 * `Sentence-BERT`
 * `scikit-learn`
 * `OpenAI GPT-4o-mini`
 
-🚀 Features
+# 🚀 Features
 * Hybrid detection combining TF-IDF (40%) and BERT semantic analysis (60%) into a single similarity score
 * Catches both direct word-for-word copying and cleverly reworded paraphrasing
 * Side-by-side document input with live word count
 * Color-coded verdict: Original, Low, Moderate, or High similarity
 * Built-in GPT-4o-mini chatbot assistant to answer questions about the app
 
-📍 The Process
+# 📍 The Process
 
 Wanted to build a plagiarism checker that goes beyond simple word matching. Most basic tools
 miss paraphrasing completely since the words are different even if the meaning is identical.
@@ -25,7 +25,7 @@ the actual meaning of the text. Both scores get combined into one final result, 
 towards BERT since paraphrasing is the harder problem to catch. Wrapped everything in
 Streamlit so it's easy to use without any technical knowledge.
 
-🚦 Running the Project
+# 🚦 Running the Project
 1. Clone the repository
 2. Upload `4real_app.py`, `chatbot.py`, and `config.py` to Google Drive inside a folder named `4Real_Project`
 3. Get your OpenAI API key from `https://platform.openai.com/api-keys` and Ngrok token from `https://dashboard.ngrok.com`
