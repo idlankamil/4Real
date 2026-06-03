@@ -17,6 +17,7 @@ Paste two documents and get an instant similarity score that catches both exact 
 * Built-in GPT-4o-mini chatbot assistant to answer questions about the app
 
 📍 The Process
+
 Wanted to build a plagiarism checker that goes beyond simple word matching. Most basic tools
 miss paraphrasing completely since the words are different even if the meaning is identical.
 So the system runs two checks at once: TF-IDF catches exact word overlap while BERT reads
